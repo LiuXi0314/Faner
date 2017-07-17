@@ -3,7 +3,7 @@
     <data>
         <variable
             name="item"
-            type="com.library.base.liuxi.takeaway.bean.ItemPriceData"/>
+            type="liuxi.faner.bean.ItemPriceData"/>
     </data>
     <LinearLayout
         android:orientation="vertical"

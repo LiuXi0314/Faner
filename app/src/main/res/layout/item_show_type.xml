@@ -5,7 +5,7 @@
 
         <variable
             name="item"
-            type="com.liuxi.faner.bean.ItemPriceData"/>
+            type="liuxi.faner.bean.ItemPriceData"/>
     </data>
 
     <com.liuxi.baselibrary.view.BaseTextView

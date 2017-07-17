@@ -7,9 +7,9 @@
 
         <variable
             name="main"
-            type="com.liuxi.faner.bean.ItemPriceData"/>
+            type="liuxi.faner.MainActivity"/>
 
-        <import type="com.liuxi.faner.AddPersonView"/>
+        <import type="liuxi.faner.view.AddPersonView"/>
     </data>
 
     <LinearLayout
@@ -21,7 +21,7 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:orientation="vertical"
-        tools:context="com.liuxi.faner.MainActivity">
+        tools:context="liuxi.faner.MainActivity">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -78,7 +78,7 @@
                         android:inputType="numberDecimal"/>
                 </android.support.design.widget.TextInputLayout>
 
-                <com.liuxi.faner.view.AddPersonView
+                <liuxi.faner.view.AddPersonView
                     android:id="@+id/addPersonView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
